@@ -4,9 +4,8 @@ body{
     background-size: cover; 
     background-position: center; 
     font-family: system-ui;
-    height: 60vh;
+    height: 100vh;
     background-attachment: fixed;
-    transform: scale(1.1); 
   }
   form {
     
