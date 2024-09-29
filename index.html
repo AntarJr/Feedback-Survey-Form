@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title" class="title">ANTAR.jr Survey Form</h1>
+     <p id="description" class="description"> Thank You For Helping Me Improve My Work</p>
+<form id="survey-form">
+<fieldset id="survey-form">
+     
+       <label for="name" id="name-label">Name:<br> <input type="text" id ="name" placeholder="Enter Your Name" required></label><br>
+       <label for="email" id="email-label">Email:<br><input type="email" id="email" placeholder="Enter Your Email" required></label><br>
+       <label for="number" id="number-label">Age:(optional)<br><input type="number" id="number" min="13" max="120" placeholder="Enter Your Age"></label><br>
+       <label for="dropdown">Have We Worked Together Before?:<br><select id="dropdown" required>
+         <option>Yes</option>
+         <option>No</option>
+         </select>
+         </label>
+</fieldset>
+<fieldset id="survey-form">
+<legend> Would You Recommend Me To Someone?</legend>
+ <label for="yes"><input type="radio" name="recommend" value="yes" class="radio" checked>Yes</label><br>
+ <label for="no"><input type="radio" name="recommend" value="no" class="radio">No</label><br>
+ <label for="not-sure"><input type="radio" name="recommend" value="not-sure" class="radio">Not Sure</label> 
+</fieldset>
+<fieldset id="survey-form">
+  <legend>What would you like to see improved?</legend>
+  
+  <label for="front-end">
+    <input type="checkbox" id="front-end" value="front-end" class="check"> Front End
+  </label><br>
+  
+  <label for="back-end">
+    <input type="checkbox" id="back-end" value="back-end" class="check"> Back End
+  </label><br>
+  
+  <label for="data">
+    <input type="checkbox" id="data" value="data" class="check"> Data
+  </label><br>
+  
+  <label for="communication">
+    <input type="checkbox" id="communication" value="communication" class="check"> Communication
+  </label>
+</fieldset>
+
+<fieldset id="survey-form">
+  <legend>Additional Comments:</legend>
+  <label for="comment">
+  <textarea id="comment" name="comment" placeholder="Leave a Comment"></textarea>
+ </label>
+ </fieldset><br>
+ <fieldset id="survey-form">
+ <input type="submit" value="Submit" id="submit" />
+  </fieldset>
+       
+       
+       </form> 
+  </body>
+</html>
